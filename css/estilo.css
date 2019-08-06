@@ -25,7 +25,7 @@ body {
 	min-height: 250px;
 }
 
-#are-logo {
+#area-logo {
 	position: absolute;
 	background: url(../imagens/topo-imagem-principal.png) no-repeat;
 	width: 100%;
@@ -44,10 +44,9 @@ body {
 	width: 151px;
 	height: 66px;
 	text-indent: -9000px;
-
 } 
 
-#are-menu {
+#area-menu {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -89,3 +88,34 @@ a.reserva {
 	float: right;
 }
 
+/* Barra de navegação vertical
+*/
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none; 
+}
+
+ul#navegacao {
+	float: left;
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #fdf6be;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
